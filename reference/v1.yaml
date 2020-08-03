@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: v1.0
+  version: '1.0'
+  description: Primer version de la API
+  contact:
+    name: Alejandro Alvarez
+    email: eliluminado00@gmail.com
+  license:
+    name: Mozilla Public License Version 2.0
+    url: 'https://www.mozilla.org/en-US/MPL/2.0/'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /printer:
+    get:
+      summary: Your GET endpoint
+      tags:
+        - printer
+      responses: {}
+      operationId: get-printer
+      description: Gestiona la impresora virtual
+    parameters: []
+components:
+  schemas: {}
+tags:
+  - name: printer
